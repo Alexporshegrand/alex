@@ -83,16 +83,4 @@ else:
 
 
 
-    # a=5
-b=10
-if a<b:
-    print("if выполнится")
-if a>b:
-    print("if 2 выполнится")
-else:
-    print("else выполнится")
-
-
-
-    if a>b or b == 10
-    print("if выполнится")
+   
