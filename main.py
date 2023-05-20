@@ -80,17 +80,4 @@ if  score < 3:
        print( "у меня нет больше вопросов")  
 else:
     print( "вы молодец")
-<<<<<<< HEAD
-     print("Привет мир")
-# print(2*3)
-# print(600/5)
-# print(145*35/437)
-# print("hello vorld")
-# print(2//3)
-# print(2%3)
-=======
 
-
-
-   
->>>>>>> 6d09c9341591dcf6f8f4dd55976a35a0a5b033bb
