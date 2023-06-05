@@ -309,6 +309,26 @@ while reg_race ==False:
                         reg_race = True
                         print("вы выбрали",myRace)
                         break
+
+enderlist = ["Мужской","Женский"] 
+racelist = ["Человек", "Эльф","Гном","Орк","Тролль"]
+rolelist = ["воин","лучник","маг"]
+print(racelist[2])
+textRace = ""
+for i in range (0, len(racelist)):
+    textRace += f"{i} - {racelist[i]}\n"
+reg_race = False 
+while reg_race ==False:
+      myRace = int(input(f"Выберите расу:\n{textRace}"))
+      if myRace>= len(racelist) or myRace < 0:
+            print("ошибка из перечисленного")
+      else:
+            for i in range (0, len(racelist)):
+                  if myRace == i:
+                        myRace = racelist[i]
+                        reg_race = True
+                        print("вы выбрали",myRace)
+                        break
           
 
 
