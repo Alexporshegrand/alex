@@ -290,27 +290,89 @@
 
 
 
-genderlist = ["Мужской","Женский"] 
-racelist = ["Человек", "Эльф","Гном","Орк","Тролль"]
-rolelist = ["воин","лучник","маг"]
-print(racelist[2])
-textRace = ""
-for i in range (0, len(racelist)):
-    textRace += f"{i} - {racelist[i]}\n"
-reg_race = False 
-while reg_race ==False:
-      myRace = int(input(f"Выберите расу:\n{textRace}"))
-      if myRace>= len(racelist) or myRace < 0:
-            print("ошибка из перечисленного")
-      else:
-            for i in range (0, len(racelist)):
-                  if myRace == i:
-                        myRace = racelist[i]
-                        reg_race = True
-                        print("вы выбрали",myRace)
-                        break
+# genderlist = ["Мужской","Женский"] 
+# racelist = ["Человек", "Эльф","Гном","Орк","Тролль"]
+# rolelist = ["воин","лучник","маг"]
+# print(racelist[2])
+# textRace = ""
+# for i in range (0, len(racelist)):
+#     textRace += f"{i} - {racelist[i]}\n"
+# reg_race = False 
+# while reg_race ==False:
+#       myRace = int(input(f"Выберите расу:\n{textRace}"))
+#       if myRace>= len(racelist) or myRace < 0:
+#             print("ошибка из перечисленного")
+#       else:
+#             for i in range (0, len(racelist)):
+#                   if myRace == i:
+#                         myRace = racelist[i]
+#                         reg_race = True
+#                         print("вы выбрали",myRace)
+#                         break
 
 
+# gost_list = []
+# menu_list = ["Добавить гостя","Удалить гостя","Просмотр гостей"]
+# black_list = ["Андрей","Сергей","Виктор"]
+# off_set = [1]
+
+# while True:
+#     n = ""
+#     for i in range(0,len(menu_list)):
+#         menu_list
+#         print("Регистрация гостя: ")
+
+
+   #   n = 1
+# while n <=7:
+#         print(n)
+#         n += 5
+
+#  n= (input("Введите имя гостя: "))
+
+
+# from ast import Yield
+# print(*lst,sep="\n")
+
+
+x=input("Меню:,1-Добавить гостя,2-Удалить гостя, 3-Просмотр гостей, 4-Закончить ")
+if x == "1":
+    lst=[]
+    n=5
+    for i in range(1,n):
+               lst.append(input("Гость("+str(i)+")="))
+    y=input("Меню:, 2-Удалить гостя, 3-Просмотр гостей, 4-Закончить ")
+if y == "3":
+        print("Весь список гостей: ")
+        for i, lst in enumerate(lst):
+                print(i+1, lst)
+if y == "2":
+         for i, lst in enumerate(lst):
+                print(i+1, lst)
+         for lst in list[0,n]:
+                lst.remove(input())
+                print(i+1, lst)
+               
+
+
+      
+
+
+#  print("Список")
+# print("Гость")
+
+
+
+
+
+
+
+
+
+
+
+
+   
           
 
 
