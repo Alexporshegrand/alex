@@ -288,9 +288,12 @@
 #                         break
 
 
+#0-переменные(массивы имееют оканчание list переменные название за что отвечают)
+#1-циклы
 
+#0.1-массив
+# genderlist = ["Мужской","Женский"]
 
-# genderlist = ["Мужской","Женский"] 
 # racelist = ["Человек", "Эльф","Гном","Орк","Тролль"]
 # rolelist = ["воин","лучник","маг"]
 # print(racelist[2])
@@ -311,55 +314,30 @@
 #                         break
 
 
-# gost_list = []
-# menu_list = ["Добавить гостя","Удалить гостя","Просмотр гостей"]
-# black_list = ["Андрей","Сергей","Виктор"]
-# off_set = [1]
+#саша и маша собирают яблоки на компот т к саша сильнее маши он должен собрать 6 яблок а маша 3, Для компота 8 яблок и обязательно чтобы саша и маша принесли 8 яблок одно могут оставить себе
 
+# result = False # яблоки не собраны
+# masha = 0 #Колличество яблок
+# sasha = 0 #Колличество яблок
+# # собирать яблоки пока у саши и маши не будет 8 шт.
 # while True:
-#     n = ""
-#     for i in range(0,len(menu_list)):
-#         menu_list
-#         print("Регистрация гостя: ")
+#       sasha = int(input("Сколько яблок собрал Саша:"))
+#       if sasha <= 6: # если саша собрал шесть яблок он должен собирать
+#             print (f"Саша должен собрать еще {6 - sasha} яблока")
+#       else: 
+#            print("саша не может унести яблоки пакет порвался")
+#       sasha = 0
+
+#       masha = int(input("Сколько яблок собрала Маша:"))
+# if masha <= 3: # если саша собрал шесть яблок он должен собирать
+#       print (f"Саша должен собрать еще {3 - masha} яблока")
+# else: 
+#       print("саша не может унести яблоки пакет порвался")
+#       masha = 0
 
 
-   #   n = 1
-# while n <=7:
-#         print(n)
-#         n += 5
-
-#  n= (input("Введите имя гостя: "))
-
-
-# from ast import Yield
-# print(*lst,sep="\n")
-
-
-x=input("Меню:,1-Добавить гостя,2-Удалить гостя, 3-Просмотр гостей, 4-Закончить ")
-if x == "1":
-    lst=[]
-    n=5
-    for i in range(1,n):
-               lst.append(input("Гость("+str(i)+")="))
-    y=input("Меню:, 2-Удалить гостя, 3-Просмотр гостей, 4-Закончить ")
-if y == "3":
-        print("Весь список гостей: ")
-        for i, lst in enumerate(lst):
-                print(i+1, lst)
-if y == "2":
-         for i, lst in enumerate(lst):
-                print(i+1, lst)
-         for lst in list[0,n]:
-                lst.remove(input())
-                print(i+1, lst)
-               
-
-
-      
-
-
-#  print("Список")
-# print("Гость")
+# if masha + sasha >= 8:
+#             print(f"Компот готов и осталось {(sasha+masha)-8} яблок")
 
 
 
@@ -367,12 +345,129 @@ if y == "2":
 
 
 
+# spisok = []
+# while True
+# gost = int(input("1. Добавить гостя: ,2. Удалить гостя: , 3. Просмотреть список: "))
+# if gost == 1: 
+#        else: print (f"Добавить гостя")
+
+
+
+# productList = ["Каша","Вода"]
+# print(productList[0])
+# infoProduct = {
+#       "nameProduct" : "Каша",
+#       "price": 120,
+#       "sale" : 20
+# }
+# print(f"{infoProduct[price"]}\n {infoProduct["sale"]}")
+# myName = input("Введи свое имя")
+# myAge = input("сколько вам лет")
+# infoPerson = {
+#       "namePerson" : myName,
+#       "agePersson" : myAge,
+#       "hobbyPerson" : ["Sport","Programming"]
+# }
+# print(infoPerson["hobbyPerson"][0])
+
+# for key in infoPerson:
+#       print(f"{key} - {infoPerson[key]}")
+
+
+
+# myName = input("Введи свое имя")
+# myAge = input("сколько вам лет")
+# infoPerson = {
+#       "namePerson" : myName,
+#       "agePersson" : myAge,
+#       "hobbyPerson" : ["Sport","Programming"]
+# }
+# print(infoPerson["hobbyPerson"][0])
+
+# for key in infoPerson:
+#       print(f"Имя: - {infoPerson[key]}")
+
+
+# productList = [
+# {"nameProduct" : "Хлеб",
+# "price": 55,
+# "count" : 37,
+# "category" : "хлебобулочные"},
+
+# {"nameProduct" : "Молоко",
+# "price" : 101,
+# "count":20,
+# "category" : "молочные"
+# },
+
+# ]
+# for i in range(0,len(productList)):
+#       # if productList[i]["price"]<80:
+#             if productList[i]["category"] == "молочные":
+#                   productList[i]["price"] = productList[i]["price"] * 2
+#                   print(f"Название товара - {productList[i]['nameProduct']}")
+#                   print(productList[i]["nameProduct"])
+#                   print(productList[i]["price"])
+#                   print(productList[i]["count"])
+#                   print("------------------------")
+
+
+# guestList = []
+# nameGuest = input("Введите гостя : ")
+# ageGuest = int(input("Введите возраст гостя : "))
+
+
+# infoGuest = {
+# "nameGuest" : nameGuest,
+# "ageGuest" : ageGuest,
+
+# }
+# print(infoGuest)
+# guestList.append(infoGuest)
+# print(guestList)
+
+
+
+guestList = []
+while True:
+      nameGuest = input("Введите гостя : ")
+      ageGuest = int(input("Введите возраст гостя : "))
+
+
+      infoGuest = {
+      "nameGuest" : nameGuest,
+      "ageGuest" : ageGuest,
+
+      }
+      # print(infoGuest)
+      guestList.append(infoGuest)
+      if len(guestList) > 3:
+            break
+            print(guestList)
+
+for i in range(0,len(guestList)):
+      print(f"Имя гостя - {guestList[i]['nameGuest']}")
+      print(f"Возрас гостя - {guestList[i]['ageGuest']}")
+      print("--------------------------")
 
 
 
 
 
-   
+
+
+
+
+
+                     
+
+
+
+
+
+
+
+
           
 
 
